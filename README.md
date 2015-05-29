@@ -7,7 +7,7 @@ BLAS Level 2 DGER for [ndarrays](https://github.com/scijs/ndarray)
 ## Usage
 
 #### `dger( alpha, A, x, y )`
-Performs the rank 1 operation `A <- alpha * x * yT * A` for scalar alpha, m element vector x, n element vector y and m x n element matrix A.
+Performs the rank 1 operation `A <- alpha * x * yT + A` for scalar alpha, m element vector x, n element vector y and m x n element matrix A.
 
 Result is overwritten in matrix A. All other inputs are unchanged.
 
