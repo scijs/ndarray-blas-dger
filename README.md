@@ -16,13 +16,15 @@ Result is overwritten in matrix A. All other inputs are unchanged.
 ```javascript
 var dger = require('ndarray-blas-dger')
 
-var A = ndarray([1,2,5,3], [2,2]),
-    x = ndarray([-4,7]),
-    y = ndarray([3,-2])
+var A = ndarray([1,2,3,4,5,6], [2,2]),
+    x = ndarray([1,2]),
+    y = ndarray([3,4,5])
 
 dger( -4, x, y, A );
 
-// Result: A = [-34, -8]
+// Result: A =  -11.000  -22.000
+                -13.000  -28.000
+                -15.000  -34.000
 ```
 
 ## Credits
