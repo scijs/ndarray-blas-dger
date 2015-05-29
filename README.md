@@ -1,4 +1,4 @@
-# ndarray-blas-gemv
+# ndarray-blas-dger
 
 [![npm version](https://badge.fury.io/js/ndarray-blas-dger.svg)](http://badge.fury.io/js/ndarray-blas-dger) [![Dependency Status](https://david-dm.org/jalava/ndarray-blas-dger.svg)](https://david-dm.org/jalava/ndarray-blas-dger)
 
