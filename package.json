@@ -30,5 +30,8 @@
     "transform": [
       "cwise"
     ]
+  },
+  "dependencies": {
+    "ndarray-blas-level1": "^1.0.5"
   }
 }
