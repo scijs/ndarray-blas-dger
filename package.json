@@ -1,13 +1,13 @@
 {
   "name": "ndarray-blas-dger",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "BLAS Level 2 DGER for ndarrays",
   "main": "lib/index.js",
   "author": "Jalmari Raippalinna",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jalava/ndarray-blas-dger.git"
+    "url": "git://github.com/rreusser/ndarray-blas-dger.git"
   },
   "scripts": {
     "test": "mocha",
@@ -16,6 +16,7 @@
   "keywords": [
     "blas",
     "ndarray",
+    "scijs",
     "linearalgebra"
   ],
   "devDependencies": {
