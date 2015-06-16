@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jalava/ndarray-blas-dger.git"
+    "url": "git://github.com/scijs/ndarray-blas-dger.git"
   },
   "scripts": {
     "test": "mocha",
