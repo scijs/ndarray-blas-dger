@@ -1,6 +1,6 @@
 {
   "name": "ndarray-blas-dger",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "BLAS Level 2 DGER for ndarrays",
   "main": "lib/index.js",
   "author": "Jalmari Raippalinna",
@@ -16,6 +16,7 @@
   "keywords": [
     "blas",
     "ndarray",
+    "scijs",
     "linearalgebra"
   ],
   "devDependencies": {
@@ -30,5 +31,8 @@
     "transform": [
       "cwise"
     ]
+  },
+  "dependencies": {
+    "ndarray-blas-level1": "^1.0.5"
   }
 }
