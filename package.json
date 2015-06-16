@@ -1,6 +1,6 @@
 {
   "name": "ndarray-blas-dger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "BLAS Level 2 DGER for ndarrays",
   "main": "lib/index.js",
   "author": "Jalmari Raippalinna",
